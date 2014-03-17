@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  /*background-color: #f4f4f4;*/
+}
+
+.list-wrapper {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li.queue-item {
+  padding: 20px;
+  margin: 10px;
+  display: block;
+  background-color: #999;
+  text-align: center;
+}
+
+li.first {
+  cursor: pointer;
+}
+
+li.first:after {
+  content: ' says: I\'m first in the queue! Click to pop me';
+}
